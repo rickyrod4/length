@@ -26,7 +26,7 @@ class SLL {
         var current = this.head;
         while(current !== null){
             console.log(current.data)
-            if(current == value){
+            if(current === value){
                 return true;
             }
             current = current.next
@@ -42,4 +42,5 @@ class SLL {
         }
         return count;
     }
+    
  }
